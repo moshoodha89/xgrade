@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Confirmation - GradeX</title>
+</head>
+<body>
+
+    <style>
+        .success {
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .details {
+            position: absolute ;
+            text-align: center;
+            left: 20%;
+            top: 35%;
+            
+        }
+    </style>
+    <h1 class="success"> Account Successfully Created!</h1> <br>
+
+       <h3 class="details">Good job there <?php echo $_POST["name"]?>! We've just popped a link into your email. <?php 
+        echo $_POST["email"]?> Please click on the link to confirm your account. </h3>
+        
+
+
+</body>
+</html>

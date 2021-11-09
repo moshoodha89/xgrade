@@ -1,0 +1,158 @@
+body {
+    background-color: white;
+    font-family: "Lexend Deca", "Noto Sans", Arial, serif;
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    display: flex; 
+    background-image: url(../img/banner_gradeX.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner-text {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: rgb(8, 27, 194);
+    font-size: 1.75rem;
+    text-align: center;
+    
+    
+
+}
+
+.banner button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.banner button:hover {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.lead-first-para {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9AAEB3;
+    /* justify-content: flex-end; */
+
+}
+
+.first-para  {
+    
+    margin-top: 100px;
+    text-align: left;
+    color: black;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 600px;
+    padding-right: 20px;
+    
+}
+
+.first-para p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+.first-para button {
+    background-color: green;
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+    justify-content: center;
+  }
+  
+  .first-para button:hover {
+      background-color: blue;
+      color: white;
+      border-radius: 10px;
+  }
+
+  .first-para-image {
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+    margin-right: 0;
+    background-image: url(../img/study_gradeX.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 6%;
+    
+  }
+
+  .second-para {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    font-size: 2rem;
+
+  }
+  .third-para {
+      width: 100%;
+      height: 400px;
+      background-color: black;
+      color: white;
+      text-align: center;
+
+  }
+  .third-para h2 {
+      padding-top: 40px;
+      padding-bottom: 20px;
+      font-size: 2.5rem;
+  }
+
+  .third-para button {
+    background-color: green;
+    /* position: absolute; */
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+    justify-content: center;
+  }
+  
+  .third-para button:hover {
+      background-color: blue;
+      color: white;
+      border-radius: 10px;
+  }
