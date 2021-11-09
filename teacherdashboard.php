@@ -77,7 +77,7 @@
 
     <!--user-->
     <div class="user">
-        <img src="./image/Demba.png">
+        <img src="./img/Demba.png">
     </div>
     </div>
 
